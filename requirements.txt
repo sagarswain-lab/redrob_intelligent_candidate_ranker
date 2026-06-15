@@ -4,3 +4,9 @@
 scikit-learn>=1.3
 numpy>=1.24
 scipy>=1.10
+
+# --- Sandbox UI (app.py) ---
+# Only needed to run the local/HF-Spaces Gradio demo. Not required for the
+# core reproduce_command above.
+gradio>=4.0
+pandas>=2.0
