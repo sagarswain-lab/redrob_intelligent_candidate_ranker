@@ -1,0 +1,18 @@
+# Organizer-provided data - too large for git (465MB uncompressed) and
+# already distributed separately. Place candidates.jsonl here locally to
+# run rank.py; it is NOT committed.
+candidates.jsonl
+candidates.jsonl.gz
+data/
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# OS cruft
+.DS_Store
+
+# One-time local setup tooling - not part of the deliverable
+setup_repo.sh
+SETUP.md
