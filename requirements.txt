@@ -8,9 +8,6 @@ scipy>=1.10
 # --- Sandbox UI (app.py) ---
 # Only needed to run the local/HF-Spaces Gradio demo. Not required for the
 # core reproduce_command above.
-gradio>=4.0
+gradio>=4.20,<5.0
 pandas>=2.0
-huggingface_hub<1.0.0
-pydantic==2.10.6
-
-
+huggingface_hub>=0.20,<1.0.0

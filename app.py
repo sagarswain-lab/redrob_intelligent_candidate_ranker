@@ -32,7 +32,13 @@ SOURCE_RE = re.compile(r"^Source: (.+)$", re.MULTILINE)
 
 
 def run_ranker(uploaded_file=None):
-    input_path = uploaded_file if uploaded_file else SAMPLE_PATH
+    # Handle both filepath string and dict (older Gradio versions return a dict)
+    if uploaded_file is None:
+        input_path = SAMPLE_PATH
+    elif isinstance(uploaded_file, dict):
+        input_path = uploaded_file.get("name") or uploaded_file.get("path") or SAMPLE_PATH
+    else:
+        input_path = uploaded_file
 
     out_dir = tempfile.mkdtemp(prefix="ranker_")
     out_path = os.path.join(out_dir, "ranked_candidates.csv")
@@ -107,4 +113,6 @@ with gr.Blocks(title="Candidate Ranker", theme=gr.themes.Soft(), analytics_enabl
 
 
 if __name__ == "__main__":
-    demo.launch()
+    # On HuggingFace Spaces, bind to 0.0.0.0 so the reverse proxy can reach it.
+    # Locally, this still works fine.
+    demo.launch(server_name="0.0.0.0", server_port=7860)
