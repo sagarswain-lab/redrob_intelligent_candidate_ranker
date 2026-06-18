@@ -1,11 +1,7 @@
 """
-Gradio UI for the candidate ranker.
-
-Wraps rank.py in a small web interface: upload a candidates file, get back
-a ranked table and a downloadable CSV. Runs locally (`python app.py`) or as
-a HuggingFace Space.
+Gradio 3.x-compatible UI for the candidate ranker.
+Uses gradio 3.50.2 (stable HF Spaces version) to avoid version-conflict issues.
 """
-
 import os
 import re
 import subprocess
@@ -28,17 +24,15 @@ SOURCE_RE = re.compile(r"^Source: (.+)$", re.MULTILINE)
 
 def _resolve_path(uploaded_file) -> str:
     """
-    Gradio 4.x returns a plain filepath string from gr.File(type='filepath').
-    Older builds (or certain HF Spaces environments) may return a dict like
-    {'name': '/tmp/...', 'orig_name': '...', 'data': None, 'is_file': True}.
-    This helper handles both cases gracefully.
+    Gradio 3.x returns a dict {'name': '/tmp/...', 'size': ..., 'data': ...}.
+    Gradio 4.x with type='filepath' returns a plain string.
+    This helper handles both.
     """
     if uploaded_file is None:
         return SAMPLE_PATH
     if isinstance(uploaded_file, dict):
         path = uploaded_file.get("name") or uploaded_file.get("path") or ""
         return path if path else SAMPLE_PATH
-    # plain string path
     return str(uploaded_file)
 
 
@@ -51,12 +45,10 @@ def run_ranker(uploaded_file=None):
     t0 = time.time()
     try:
         result = subprocess.run(
-            [
-                sys.executable, RANK_SCRIPT,
-                "--candidates", input_path,
-                "--out", out_path,
-                "--top-k", "100",
-            ],
+            [sys.executable, RANK_SCRIPT,
+             "--candidates", input_path,
+             "--out", out_path,
+             "--top-k", "100"],
             capture_output=True,
             text=True,
             timeout=600,
@@ -97,24 +89,20 @@ def run_ranker(uploaded_file=None):
 
 
 # ── UI ────────────────────────────────────────────────────────────────────────
-
-with gr.Blocks(
-    title="Candidate Ranker",
-    theme=gr.themes.Soft(),
-    analytics_enabled=False,
-) as demo:
+# Use theme="soft" string (works in gradio 3.x and 4.x)
+with gr.Blocks(title="Candidate Ranker", theme="soft") as demo:
     gr.Markdown(
         "# 🏆 Candidate Ranker\n"
         "Upload a candidates file (`.jsonl`, `.jsonl.gz`, or `.zip`) and run "
-        "the ranking pipeline. Leave the upload empty to try it on the built-in "
-        "sample. The full 100 k-candidate pool takes ~1 minute."
+        "the ranking pipeline against it. Leave the upload empty to run on the "
+        "built-in sample. The full 100 k-candidate pool takes ~1 minute."
     )
 
     with gr.Row():
         file_in = gr.File(
             label="Candidates file  (.jsonl / .jsonl.gz / .zip)",
             file_types=[".jsonl", ".gz", ".zip"],
-            type="filepath",
+            # No type="filepath" - avoid gradio_client JSON schema bugs in 4.x
             scale=3,
         )
         run_btn = gr.Button("▶  Run ranker", variant="primary", scale=1)
@@ -127,17 +115,15 @@ with gr.Blocks(
         fn=run_ranker,
         inputs=file_in,
         outputs=[table_out, summary_out, download_out],
-        api_name=False,  # prevents gradio_client JSON schema crash (bool not iterable)
+        api_name=False,
     )
     demo.load(
         fn=run_ranker,
         inputs=None,
         outputs=[table_out, summary_out, download_out],
-        api_name=False,  # prevents gradio_client JSON schema crash (bool not iterable)
+        api_name=False,
     )
 
 
 if __name__ == "__main__":
-    # server_name="0.0.0.0" is required on HuggingFace Spaces so the
-    # platform's reverse proxy can reach the local server.
     demo.launch(server_name="0.0.0.0", server_port=7860)

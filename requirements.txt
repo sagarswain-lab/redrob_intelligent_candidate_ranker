@@ -1,15 +1,10 @@
 # --- Core ranking pipeline (rank.py) ---
-# TfidfVectorizer / cosine_similarity come from scikit-learn; numpy/scipy are its dependencies.
 scikit-learn>=1.3
 numpy>=1.24
 scipy>=1.10
 
 # --- Sandbox UI (app.py) ---
-# NOTE: gradio is NOT listed here - HuggingFace Spaces auto-installs it
-# from sdk_version in README.md (4.44.0). Adding it here causes a conflict.
-#
-# huggingface_hub must be pinned: gradio 4.44.0 imports HfFolder which was
-# removed in huggingface_hub>=0.25.0. Without this pin HF installs the latest
-# hub (0.30+) which breaks the import.
-huggingface_hub>=0.20.0,<0.25.0
+# gradio is managed by HF Spaces via sdk_version in README.md (3.50.2).
+# Do NOT add gradio or huggingface_hub here - they are pre-installed in the
+# HF docker image and adding them causes version conflicts.
 pandas>=2.0
