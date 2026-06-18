@@ -1,0 +1,108 @@
+# Redrob Hackathon — Submission Metadata
+
+# ============================================================================
+# Team identity
+# ============================================================================
+team_name: "SuperNova"
+
+primary_contact:
+  name: "Sagar Swain"
+  email: "sagarswain9753@gmail.com"
+  phone: "+91-7735818363"
+
+team_members:
+  - name: "Sagar Swain"
+    email: "sagarswain9753@gmail.com"
+    role: "ML/Ranking Engineer"
+  - name: "Anup Kumar Sahoo"
+    email: "anupsahoo914@gmail.com"
+    role: "Documentation / Presentation"
+  - name: "Aavash Kumar Beriha"
+    email: "aavashkumarberiha@gmail.com"
+    role: "Data Analyst / EDA"
+  - name: "Om Rudra Prakash"
+    email: "priyasamanta562@gmail.com"
+    role: "Sandbox / DevOps"
+ 
+
+# ============================================================================
+# Code and reproducibility
+# ============================================================================
+github_repo: "https://github.com/sagarswain-lab/redrob_intelligent_candidate_ranker.git"
+
+
+sandbox_link: "<<FILL IN — e.g. https://huggingface.co/spaces/YOUR_USERNAME/redrob-ranker>>"
+# A hosted environment where rank.py can be run on a small sample.
+# Ready-to-go in sandbox/hf_space/ (see sandbox/SANDBOX_SETUP.md, ~5 min
+# setup: create a Space, upload 6 files or `hf upload`). It bundles the same
+# rank.py + reference_data.py used for the full submission, plus a curated
+# 58-candidate sample (the 8 "ideal" candidates + 3 deceptive honeypots + 47
+# ordinary profiles). Tested end-to-end: top-8 == the 8 ideal candidates,
+# honeypots excluded, ~2-3s runtime.
+
+reproduce_command: "python rank.py --candidates ./candidates.jsonl --out ./submission.csv"
+# Single command, produces submission.csv from candidates.jsonl.
+# Measured: ~58s, ~3.5GB peak RSS, single CPU core, no network, no GPU.
+
+# ============================================================================
+# Compute environment
+# ============================================================================
+compute:
+  platform: "Asus vivobook 16x"
+  cpu_cores: 8     # update to your machine's core count
+  ram_gb: 16
+  python_version: "3.12"
+  os: "Windows 11 Home"
+  uses_gpu_for_inference: false
+  has_network_during_ranking: false
+  pre_computation_required: false
+  pre_computation_time_minutes: 0
+
+# ============================================================================
+# AI tools declaration
+# ============================================================================
+ai_tools_used:
+  - "ChatGPT"
+
+ai_usage_summary: |
+  Used ChatGPT to help format the project documentation and troubleshoot basic syntax. 
+  The core ranking logic, feature scoring, and data analysis were designed and implemented manually.
+
+# ============================================================================
+# Approach summary
+# ============================================================================
+methodology_summary: |
+  Two-stage hybrid ranker. (1) Structured feature scoring across five axes
+  — skill relevance (133 skills bucketed into 4 frequency tiers via EDA,
+  weighted 0-14 by JD relevance and rarity), title tier (47 titles in 5
+  bands, off-target titles penalized -20 per the JD's "Marketing Manager
+  with AI skills" example), career/company tier (AI-native/FAANG/Indian
+  product vs. consulting-only penalty vs. neutral filler companies),
+  location (Noida/Pune > NCR/Mumbai/Hyderabad > rest of India > abroad), and
+  behavioral availability (recency, open-to-work, recruiter response rate,
+  notice period - directly implements the JD's "5% response rate, inactive
+  6 months" down-weight example). 
+  (2) A TF-IDF cosine-similarity hybrid
+  lexical signal against a condensed JD reference text (chosen over a dense
+  embedding model after profiling showed the dataset's free-text fields use
+  only ~40-50 templates - TF-IDF captures the same template-membership
+  signal at near-zero cost and with no model-download/network dependency).
+  Three structural honeypot checks (expert-skill-with-0-duration count;
+  years-of-experience vs. total career-history duration, both directions)
+  exclude 66 candidates before ranking, validated to fire on a clean
+  designed subset with near-zero overlap. Reasoning is generated from the
+  same feature extraction (no hallucination by construction), with varied
+  phrasing and, for ranks 41-100, varied sentence structure per candidate.
+  Runtime ~58s / ~3.5GB on a single CPU core for all 100K candidates.
+  Result: the 8 candidates sharing a unique "ideal" summary template and the
+  dataset's 14 rarest skills land at ranks #1-#8; 0% honeypot rate in top-100.
+
+# ============================================================================
+# Declarations
+# ============================================================================
+declarations:
+  read_submission_spec: true
+  code_is_original_work: true
+  no_collusion: true
+  honeypot_check_done: true
+  reproduction_tested: true

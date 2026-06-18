@@ -10,3 +10,5 @@ scipy>=1.10
 # core reproduce_command above.
 gradio>=4.0
 pandas>=2.0
+huggingface_hub<1.0.0
+

@@ -1,101 +1,101 @@
 candidate_id,rank,score,reasoning
-CAND_0093193,1,0.99,"Currently a Senior Machine Learning Engineer at Niramai: expert-level Ranking Systems experience (6.4y); Text Encoders at expert level (7.7y); has worked at Niramai, an AI-focused product company. Minor watch-point: based in Bangalore, Karnataka and not flagged as willing to relocate to Noida/Pune."
-CAND_0037980,2,0.9586,"Senior Applied Scientist at Niramai: 4y of expert Search Infrastructure; expert Indexing Algorithms (4.8y); has worked at Verloop.io, an AI-focused product company. This is precisely the search and ranking-systems depth this role is built around."
-CAND_0006567,3,0.9506,"Currently a Senior AI Engineer at Meta: expert Model Adaptation (5.9y); Workflow Orchestration at expert level (4.2y); has worked at Glance, an AI-focused product company. This is precisely the search and ranking-systems depth this role is built around."
-CAND_0068351,4,0.9205,"Currently a Lead AI Engineer at Sarvam AI: 6.8y of expert Open-source ML libraries; Text Encoders at expert level (4.2y); has worked at Sarvam AI, an AI-focused product company. This provides exactly the external-validation signal (open-source contributions) the JD calls out."
-CAND_0080766,5,0.8716,Staff Machine Learning Engineer at Salesforce: 4.9y of expert Open-source ML libraries; Search Backend at expert level (4.6y); AI-native company experience at Aganitha. This speaks to the open-source / external-validation angle the JD mentions.
-CAND_0061257,6,0.8148,Staff Machine Learning Engineer (LinkedIn): expert Search Infrastructure (6.9y); expert Model Adaptation (6.6y); AI-native company experience at Yellow.ai. This is a near-exact match for the founding AI engineer role's day-to-day work.
-CAND_0030468,7,0.7323,"Senior Applied Scientist (Swiggy): expert-level Content Matching experience (6.8y); expert Text Encoders (6.4y); has worked at Wysa, an AI-focused product company. This is a near-exact match for the founding AI engineer role's day-to-day work."
-CAND_0005538,8,0.7264,"Senior AI Engineer at Adobe: 3.8y of expert Vector Representations; Workflow Orchestration at expert level (4.8y); has worked at Glance, an AI-focused product company. Minor watch-point: Kolkata, West Bengal-based with no relocation flag set."
-CAND_0081846,9,0.7148,Currently a Lead AI Engineer at Razorpay: 4.8y of expert Learning to Rank; BM25 at expert level (6.2y); product-company experience at Razorpay. This is the kind of ranking and evaluation background the role is hiring for.
-CAND_0039754,10,0.6811,"Senior Applied Scientist (Meta, 16.2 yrs): expert Qdrant (5.6y); OpenSearch at expert level (5.9y); AI-native company experience at Observe.AI. Minor watch-point: 16.2 yrs experience is more senior than the target range."
-CAND_0077337,11,0.6639,Staff Machine Learning Engineer (Paytm): expert BM25 (5.5y); expert pgvector (6.2y). This is the kind of ranking and evaluation background the role is hiring for.
-CAND_0033861,12,0.6563,"Senior NLP Engineer at Mad Street Den: expert Learning to Rank (6.8y); Weaviate at expert level (3.5y). Concern: Vizag, Andhra Pradesh-based with no relocation flag set."
-CAND_0007009,13,0.652,Recommendation Systems Engineer at Wysa: expert-level Learning to Rank experience (6.2y); BM25 at expert level (5.9y). This matches the JD's focus on ranking-evaluation work (the NDCG/MRR/MAP side of the role).
-CAND_0002025,14,0.6443,"Senior AI Engineer at Apple: 4.5y of expert Python; Haystack at expert level (5.3y). Concern: Trivandrum, Kerala-based with no relocation flag set."
-CAND_0088025,15,0.6402,"Staff Machine Learning Engineer (Yellow.ai): expert-level BM25 experience (5.1y); expert Learning to Rank (7.5y). Concern: based in Jaipur, Rajasthan and not flagged as willing to relocate to Noida/Pune."
-CAND_0018499,16,0.6064,"Senior Machine Learning Engineer (Zomato, 7.2 yrs): expert-level Learning to Rank experience (5.8y); expert Weaviate (7.3y). This is the kind of ranking and evaluation background the role is hiring for."
-CAND_0075574,17,0.6011,Machine Learning Engineer (Haptik): 5.9y of expert BM25; expert pgvector (5y). This is the kind of ranking and evaluation background the role is hiring for.
+CAND_0093193,1,0.99,"Senior Machine Learning Engineer (Niramai, 7.9 yrs): expert Ranking Systems (6.4y); expert Text Encoders (7.7y); has worked at Niramai, an AI-focused product company. Minor watch-point: Bangalore, Karnataka-based with no relocation flag set."
+CAND_0037980,2,0.9586,"Senior Applied Scientist (Niramai, 9.0 yrs): expert Search Infrastructure (4y); expert Indexing Algorithms (4.8y); has worked at Niramai, an AI-focused product company. This is a near-exact match for the founding AI engineer role's day-to-day work."
+CAND_0006567,3,0.9506,Currently a Senior AI Engineer at Meta: expert Model Adaptation (5.9y); Workflow Orchestration at expert level (4.2y); AI-native company experience at Glance. This is precisely the search and ranking-systems depth this role is built around.
+CAND_0068351,4,0.9205,Lead AI Engineer (Sarvam AI): 6.8y of expert Open-source ML libraries; expert Text Encoders (4.2y); AI-native company experience at Verloop.io. This speaks to the open-source / external-validation angle the JD mentions.
+CAND_0080766,5,0.8716,"Staff Machine Learning Engineer (Salesforce, 8.8 yrs): expert Open-source ML libraries (4.9y); expert Search Backend (4.6y); has worked at Aganitha, an AI-focused product company. This provides exactly the external-validation signal (open-source contributions) the JD calls out."
+CAND_0061257,6,0.8148,"Staff Machine Learning Engineer (LinkedIn): expert-level Search Infrastructure experience (6.9y); expert Model Adaptation (6.6y); has worked at Yellow.ai, an AI-focused product company. This is a near-exact match for the founding AI engineer role's day-to-day work."
+CAND_0030468,7,0.7323,Currently a Senior Applied Scientist at Swiggy: 6.8y of expert Content Matching; Text Encoders at expert level (6.4y); AI-native company experience at Wysa. This is precisely the search and ranking-systems depth this role is built around.
+CAND_0005538,8,0.7264,"Senior AI Engineer at Adobe: expert Vector Representations (3.8y); Workflow Orchestration at expert level (4.8y); AI-native company experience at Locobuzz. Minor watch-point: based in Kolkata, West Bengal and not flagged as willing to relocate to Noida/Pune."
+CAND_0081846,9,0.7148,"Lead AI Engineer (Razorpay, 6.7 yrs): expert Learning to Rank (4.8y); expert BM25 (6.2y); product-company experience at Paytm. This is the kind of ranking and evaluation background the role is hiring for."
+CAND_0039754,10,0.6811,Currently a Senior Applied Scientist at Meta: expert-level Qdrant experience (5.6y); OpenSearch at expert level (5.9y); AI-native company experience at Observe.AI. Minor watch-point: 16.2 years of experience runs above the JD's 5-9 year band.
+CAND_0077337,11,0.6639,"Staff Machine Learning Engineer (Paytm, 7.0 yrs): 5.5y of expert BM25; expert pgvector (6.2y). This is the kind of ranking and evaluation background the role is hiring for."
+CAND_0033861,12,0.6563,"Senior NLP Engineer (Mad Street Den): expert-level Learning to Rank experience (6.8y); expert Weaviate (3.5y). Concern: based in Vizag, Andhra Pradesh and not flagged as willing to relocate to Noida/Pune."
+CAND_0007009,13,0.652,Recommendation Systems Engineer at Wysa: 6.2y of expert Learning to Rank; BM25 at expert level (5.9y). This matches the JD's focus on ranking-evaluation work (the NDCG/MRR/MAP side of the role).
+CAND_0002025,14,0.6443,"Currently a Senior AI Engineer at Apple: expert Python (4.5y); Haystack at expert level (5.3y). Concern: Trivandrum, Kerala-based with no relocation flag set."
+CAND_0088025,15,0.6402,"Staff Machine Learning Engineer (Yellow.ai, 8.6 yrs): expert-level BM25 experience (5.1y); expert Learning to Rank (7.5y). Concern: based in Jaipur, Rajasthan and not flagged as willing to relocate to Noida/Pune."
+CAND_0018499,16,0.6064,Currently a Senior Machine Learning Engineer at Zomato: expert Learning to Rank (5.8y); Weaviate at expert level (7.3y). This matches the JD's focus on ranking-evaluation work (the NDCG/MRR/MAP side of the role).
+CAND_0075574,17,0.6011,Machine Learning Engineer at Haptik: 5.9y of expert BM25; pgvector at expert level (5y). This matches the JD's focus on ranking-evaluation work (the NDCG/MRR/MAP side of the role).
 CAND_0071974,18,0.5872,"Senior AI Engineer at Netflix: 4.8y of expert BM25; Weaviate at expert level (5.1y). Concern: Vizag, Andhra Pradesh-based with no relocation flag set."
-CAND_0008425,19,0.5865,"Senior NLP Engineer at Ola: expert-level Learning to Rank experience (7.2y); Qdrant at expert level (7.7y). Concern: Kolkata, West Bengal-based with no relocation flag set."
-CAND_0068811,20,0.5711,Currently a Applied ML Engineer at Freshworks: expert Qdrant (5.8y); pgvector at expert level (3.9y). This is exactly the production vector-DB / hybrid-search experience the JD asks for.
-CAND_0041610,21,0.5689,Currently a Recommendation Systems Engineer at Zoho: 6.2y of expert BM25; Learning to Rank at expert level (6.2y). This matches the JD's focus on ranking-evaluation work (the NDCG/MRR/MAP side of the role).
-CAND_0064270,22,0.5681,Applied ML Engineer (Verloop.io): expert Learning to Rank (7.3y); expert BM25 (7.5y). Concern: 4.2 years of experience is below the JD's 5-9 year band.
-CAND_0020877,23,0.5579,"Applied ML Engineer (CRED, 5.1 yrs): expert-level Elasticsearch experience (5.8y); expert Weaviate (6.3y). This lines up directly with the JD's named vector-database requirement."
-CAND_0042506,24,0.5491,"Search Engineer at Verloop.io: 3.4y of expert Milvus; Qdrant at expert level (3.9y). Concern: only 4.2 yrs experience, under the target range."
-CAND_0086022,25,0.5432,Currently a Senior Applied Scientist at Sarvam AI: expert-level pgvector experience (6.5y); NLP at expert level (3.4y). This is exactly the production vector-DB / hybrid-search experience the JD asks for.
-CAND_0079387,26,0.5359,"AI Engineer (Microsoft, 6.9 yrs): expert-level Python experience (4.2y); expert OpenSearch (7.2y). Concern: based in Trivandrum, Kerala and not flagged as willing to relocate to Noida/Pune."
-CAND_0081053,27,0.5356,NLP Engineer (Glance): 5.9y of expert Learning to Rank; expert pgvector (3.7y). This matches the JD's focus on ranking-evaluation work (the NDCG/MRR/MAP side of the role).
-CAND_0049538,28,0.5322,"Applied ML Engineer (Saarthi.ai): expert Learning to Rank (3.9y); expert OpenSearch (5.3y). Concern: based in Jaipur, Rajasthan and not flagged as willing to relocate to Noida/Pune."
-CAND_0045250,29,0.5241,Applied ML Engineer at Rephrase.ai: expert-level BM25 experience (7.2y); Qdrant at expert level (6.3y). This is the kind of ranking and evaluation background the role is hiring for.
+CAND_0008425,19,0.5865,"Senior NLP Engineer at Ola: 7.2y of expert Learning to Rank; Qdrant at expert level (7.7y). Concern: Kolkata, West Bengal-based with no relocation flag set."
+CAND_0068811,20,0.5711,Applied ML Engineer (Freshworks): expert Qdrant (5.8y); expert pgvector (3.9y). This lines up directly with the JD's named vector-database requirement.
+CAND_0041610,21,0.5689,Currently a Recommendation Systems Engineer at Zoho: expert BM25 (6.2y); Learning to Rank at expert level (6.2y). This matches the JD's focus on ranking-evaluation work (the NDCG/MRR/MAP side of the role).
+CAND_0064270,22,0.5681,"Applied ML Engineer (Verloop.io, 4.2 yrs): 7.3y of expert Learning to Rank; expert BM25 (7.5y). Concern: only 4.2 yrs experience, under the target range."
+CAND_0020877,23,0.5579,Applied ML Engineer (CRED): expert-level Elasticsearch experience (5.8y); expert Weaviate (6.3y). This lines up directly with the JD's named vector-database requirement.
+CAND_0042506,24,0.5491,"Search Engineer (Verloop.io): expert Milvus (3.4y); expert Qdrant (3.9y). Concern: only 4.2 yrs experience, under the target range."
+CAND_0086022,25,0.5432,Senior Applied Scientist at Sarvam AI: expert-level pgvector experience (6.5y); NLP at expert level (3.4y). This is exactly the production vector-DB / hybrid-search experience the JD asks for.
+CAND_0079387,26,0.5359,"AI Engineer at Microsoft: 4.2y of expert Python; OpenSearch at expert level (7.2y). Concern: Trivandrum, Kerala-based with no relocation flag set."
+CAND_0081053,27,0.5356,NLP Engineer at Glance: 5.9y of expert Learning to Rank; pgvector at expert level (3.7y). This matches the JD's focus on ranking-evaluation work (the NDCG/MRR/MAP side of the role).
+CAND_0049538,28,0.5322,"Currently a Applied ML Engineer at Saarthi.ai: expert-level Learning to Rank experience (3.9y); OpenSearch at expert level (5.3y). Concern: Jaipur, Rajasthan-based with no relocation flag set."
+CAND_0045250,29,0.5241,"Applied ML Engineer (Rephrase.ai, 6.6 yrs): expert-level BM25 experience (7.2y); expert Qdrant (6.3y). This is the kind of ranking and evaluation background the role is hiring for."
 CAND_0042029,30,0.5146,Currently a Senior Data Scientist at Flipkart: expert-level OpenSearch experience (8y); NLP at expert level (7.3y). This is exactly the production vector-DB / hybrid-search experience the JD asks for.
-CAND_0061655,31,0.5139,Machine Learning Engineer (Krutrim): 3y of expert OpenSearch; expert Elasticsearch (3.5y). Concern: 4.6 years of experience is below the JD's 5-9 year band.
-CAND_0083307,32,0.5086,"Search Engineer (CRED, 7.8 yrs): expert Weaviate (5.3y); Python at expert level (7.3y). Concern: Vizag, Andhra Pradesh-based with no relocation flag set."
-CAND_0072660,33,0.506,"Currently a Machine Learning Engineer at Unacademy: 4.2y of expert pgvector; OpenSearch at expert level (5.3y). Concern: located in Berlin, Germany - outside the JD's India-based hiring pool."
+CAND_0061655,31,0.5139,Machine Learning Engineer at Krutrim: 3y of expert OpenSearch; Elasticsearch at expert level (3.5y). Concern: 4.6 years of experience is below the JD's 5-9 year band.
+CAND_0083307,32,0.5086,"Search Engineer (CRED): expert Weaviate (5.3y); expert Python (7.3y). Concern: Vizag, Andhra Pradesh-based with no relocation flag set."
+CAND_0072660,33,0.506,"Machine Learning Engineer at Unacademy: 4.2y of expert pgvector; OpenSearch at expert level (5.3y). Concern: located in Berlin, Germany - outside the JD's India-based hiring pool."
 CAND_0046525,34,0.5041,Senior Machine Learning Engineer (Genpact AI): expert-level Qdrant experience (3.7y); expert LlamaIndex (5.5y). This lines up directly with the JD's named vector-database requirement.
-CAND_0064326,35,0.5036,Search Engineer (Sarvam AI): expert Weaviate (4.2y); expert Python (5y). This is exactly the production vector-DB / hybrid-search experience the JD asks for.
-CAND_0030031,36,0.5011,"AI Engineer (Microsoft): expert Python (4.8y); expert NLP (7.8y). Concern: based in Trivandrum, Kerala and not flagged as willing to relocate to Noida/Pune."
-CAND_0044855,37,0.5,"Senior Data Scientist (Flipkart, 6.6 yrs): expert Learning to Rank (6.8y); expert OpenSearch (6.8y). This is the kind of ranking and evaluation background the role is hiring for."
-CAND_0041611,38,0.4998,"Staff Machine Learning Engineer at Locobuzz: expert-level BM25 experience (5.2y); Qdrant at expert level (5.8y). Concern: located in Austin, USA - outside the JD's India-based hiring pool."
-CAND_0066376,39,0.4983,Currently a Applied ML Engineer at Dream11: expert-level Learning to Rank experience (7.6y); BM25 at expert level (4.9y). This matches the JD's focus on ranking-evaluation work (the NDCG/MRR/MAP side of the role).
+CAND_0064326,35,0.5036,Currently a Search Engineer at Sarvam AI: 4.2y of expert Weaviate; Python at expert level (5y). This is exactly the production vector-DB / hybrid-search experience the JD asks for.
+CAND_0030031,36,0.5011,"AI Engineer at Microsoft: expert-level Python experience (4.8y); NLP at expert level (7.8y). Concern: Trivandrum, Kerala-based with no relocation flag set."
+CAND_0044855,37,0.5,Senior Data Scientist (Flipkart): 6.8y of expert Learning to Rank; expert OpenSearch (6.8y). This is the kind of ranking and evaluation background the role is hiring for.
+CAND_0041611,38,0.4998,"Staff Machine Learning Engineer (Locobuzz, 6.4 yrs): 5.2y of expert BM25; expert Qdrant (5.8y). Concern: based outside India (Austin, USA), and the role doesn't sponsor visas."
+CAND_0066376,39,0.4983,Currently a Applied ML Engineer at Dream11: expert Learning to Rank (7.6y); BM25 at expert level (4.9y). This matches the JD's focus on ranking-evaluation work (the NDCG/MRR/MAP side of the role).
 CAND_0027691,40,0.4981,Currently a NLP Engineer at Haptik: 6.1y of expert Weaviate; Learning to Rank at advanced level (3.2y). This is exactly the production vector-DB / hybrid-search experience the JD asks for.
-CAND_0050454,41,0.4949,AI Engineer at Rephrase.ai offers 4.6y of expert BM25. This matches the JD's focus on ranking-evaluation work (the NDCG/MRR/MAP side of the role).
-CAND_0074225,42,0.4887,"Machine Learning Engineer (Unacademy): expert-level Elasticsearch experience (3.1y); Milvus at expert level (7.8y). Worth noting: only 4.3 yrs experience, under the target range."
-CAND_0070398,43,0.4883,"Machine Learning Engineer (Genpact AI, 7.2 yrs) brings expert-level BM25 experience (5.9y), but notice period of 120 days is well above the JD's preference."
-CAND_0087630,44,0.4858,"AI Engineer (Vedantu, 7.2 yrs) brings 3y of expert OpenSearch; also expert NLP (4.1y). This lines up directly with the JD's named vector-database requirement."
-CAND_0041669,45,0.4824,"Recommendation Systems Engineer (CRED, 8.0 yrs): 6.3y of expert Milvus. This is exactly the production vector-DB / hybrid-search experience the JD asks for."
-CAND_0052328,46,0.4797,Recommendation Systems Engineer at Amazon offers expert-level Learning to Rank experience (3.7y). This matches the JD's focus on ranking-evaluation work (the NDCG/MRR/MAP side of the role).
-CAND_0046064,47,0.478,"Senior NLP Engineer (Salesforce, 8.9 yrs) brings 5.3y of expert BM25, but based in Coimbatore, Tamil Nadu and not flagged as willing to relocate to Noida/Pune."
-CAND_0050876,48,0.4717,"Applied ML Engineer (Freshworks, 6.0 yrs) brings expert-level OpenSearch experience (4.9y), but based in Kolkata, West Bengal and not flagged as willing to relocate to Noida/Pune."
-CAND_0006557,49,0.4637,"Notice period of 120 days is well above the JD's preference; still, NLP Engineer at Paytm brings expert-level OpenSearch experience (6y)."
-CAND_0078492,50,0.4614,"Recommendation Systems Engineer (Verloop.io, 5.1 yrs): expert-level Qdrant experience (5.5y). This lines up directly with the JD's named vector-database requirement."
-CAND_0009837,51,0.4599,"Currently a Senior Data Scientist at Rephrase.ai: 7.8y of expert Learning to Rank; Python at expert level (6.9y). Worth noting: only 4.3 yrs experience, under the target range."
-CAND_0078002,52,0.4592,"Machine Learning Engineer (Meta, 6.3 yrs) brings expert-level pgvector experience (5y), but Coimbatore, Tamil Nadu-based with no relocation flag set."
-CAND_0005260,53,0.4567,Senior NLP Engineer at Netflix brings 3.6y of expert Python; also NLP at expert level (5y). This is the kind of ML engineering foundation the role is built on.
-CAND_0094056,54,0.4528,"NLP Engineer (Rephrase.ai, 5.9 yrs) brings 6.5y of expert BM25, but a long 120-day notice period."
-CAND_0008239,55,0.4523,"4.0 years of experience is below the JD's 5-9 year band; still, AI Engineer (Apple) brings 6y of expert Milvus."
-CAND_0095528,56,0.4517,"Currently a Senior Data Scientist at Netflix: expert-level pgvector experience (5y). On the downside, Indore, Madhya Pradesh-based with no relocation flag set."
-CAND_0037944,57,0.4504,"4.9 years of experience is below the JD's 5-9 year band; still, Senior Data Scientist at Vedantu brings expert BM25 (5.5y)."
-CAND_0044222,58,0.4492,"AI Engineer (PolicyBazaar, 7.7 yrs) brings expert-level OpenSearch experience (6.2y), but based in Vizag, Andhra Pradesh and not flagged as willing to relocate to Noida/Pune."
-CAND_0074735,59,0.4481,"Based in Chandigarh, Chandigarh and not flagged as willing to relocate to Noida/Pune; still, Applied ML Engineer (Rephrase.ai) brings 6.8y of expert Learning to Rank."
-CAND_0011162,60,0.4476,Recommendation Systems Engineer at upGrad offers 7.4y of expert OpenSearch. This is exactly the production vector-DB / hybrid-search experience the JD asks for.
-CAND_0043228,61,0.4467,"Applied ML Engineer (Zoho, 6.8 yrs) brings 3.6y of expert Weaviate, but based in Chennai, Tamil Nadu and not flagged as willing to relocate to Noida/Pune."
-CAND_0099806,62,0.4446,AI Engineer (Mad Street Den): expert-level Qdrant experience (5.2y); advanced BM25 (3y). Worth noting: 4.6 years of experience is below the JD's 5-9 year band.
+CAND_0050454,41,0.4949,AI Engineer (Rephrase.ai): 4.6y of expert BM25; expert NLP (4.2y).
+CAND_0074225,42,0.4887,"4.3 years of experience is below the JD's 5-9 year band; still, Machine Learning Engineer at Unacademy brings 3.1y of expert Elasticsearch."
+CAND_0070398,43,0.4883,"Notice period of 120 days is well above the JD's preference; still, Machine Learning Engineer at Genpact AI brings expert BM25 (5.9y)."
+CAND_0087630,44,0.4858,AI Engineer (Vedantu): expert OpenSearch (3y); expert NLP (4.1y).
+CAND_0041669,45,0.4824,Recommendation Systems Engineer at CRED offers expert Milvus (6.3y). This is exactly the production vector-DB / hybrid-search experience the JD asks for.
+CAND_0052328,46,0.4797,"Recommendation Systems Engineer (Amazon, 6.5 yrs) brings expert Learning to Rank (3.7y); also expert OpenSearch (3.5y). This is the kind of ranking and evaluation background the role is hiring for."
+CAND_0046064,47,0.478,"Currently a Senior NLP Engineer at Salesforce: expert BM25 (5.3y). On the downside, Coimbatore, Tamil Nadu-based with no relocation flag set."
+CAND_0050876,48,0.4717,"Currently a Applied ML Engineer at Freshworks brings 4.9y of expert OpenSearch, but Kolkata, West Bengal-based with no relocation flag set."
+CAND_0006557,49,0.4637,NLP Engineer at Paytm: 6y of expert OpenSearch; Qdrant at expert level (6.2y). Worth noting: notice period of 120 days is well above the JD's preference.
+CAND_0078492,50,0.4614,Currently a Recommendation Systems Engineer at Verloop.io: 5.5y of expert Qdrant. This is exactly the production vector-DB / hybrid-search experience the JD asks for.
+CAND_0009837,51,0.4599,"Currently a Senior Data Scientist at Rephrase.ai brings expert-level Learning to Rank experience (7.8y), but only 4.3 yrs experience, under the target range."
+CAND_0078002,52,0.4592,"Machine Learning Engineer (Meta): 5y of expert pgvector; expert NLP (4.2y). Worth noting: based in Coimbatore, Tamil Nadu and not flagged as willing to relocate to Noida/Pune."
+CAND_0005260,53,0.4567,Senior NLP Engineer (Netflix): 3.6y of expert Python. This is the kind of ML engineering foundation the role is built on.
+CAND_0094056,54,0.4528,"NLP Engineer (Rephrase.ai): expert BM25 (6.5y). On the downside, a long 120-day notice period."
+CAND_0008239,55,0.4523,"4.0 years of experience is below the JD's 5-9 year band; still, AI Engineer (Apple, 4.0 yrs) brings expert-level Milvus experience (6y)."
+CAND_0095528,56,0.4517,"Senior Data Scientist (Netflix, 5.3 yrs) brings expert pgvector (5y), but based in Indore, Madhya Pradesh and not flagged as willing to relocate to Noida/Pune."
+CAND_0037944,57,0.4504,"Currently a Senior Data Scientist at Vedantu: 5.5y of expert BM25. On the downside, 4.9 years of experience is below the JD's 5-9 year band."
+CAND_0044222,58,0.4492,"Vizag, Andhra Pradesh-based with no relocation flag set; still, AI Engineer at PolicyBazaar brings expert-level OpenSearch experience (6.2y)."
+CAND_0074735,59,0.4481,"Applied ML Engineer (Rephrase.ai): expert-level Learning to Rank experience (6.8y); expert LlamaIndex (5.2y). Worth noting: based in Chandigarh, Chandigarh and not flagged as willing to relocate to Noida/Pune."
+CAND_0011162,60,0.4476,Recommendation Systems Engineer (upGrad): expert-level OpenSearch experience (7.4y). This lines up directly with the JD's named vector-database requirement.
+CAND_0043228,61,0.4467,"Currently a Applied ML Engineer at Zoho: 3.6y of expert Weaviate. On the downside, Chennai, Tamil Nadu-based with no relocation flag set."
+CAND_0099806,62,0.4446,"Currently a AI Engineer at Mad Street Den: expert Qdrant (5.2y). On the downside, 4.6 years of experience is below the JD's 5-9 year band."
 CAND_0029367,63,0.4422,"Senior Data Scientist (Rephrase.ai, 5.7 yrs) brings expert NLP (6.9y), but based in Bangalore, Karnataka and not flagged as willing to relocate to Noida/Pune."
-CAND_0092278,64,0.4401,"A low 7% recruiter response rate suggests limited engagement; still, Senior NLP Engineer at Microsoft brings expert pgvector (6.1y)."
-CAND_0005649,65,0.4399,Currently a Senior Data Scientist at Sarvam AI: expert Weaviate (6.2y); Haystack at expert level (4.7y).
-CAND_0006418,66,0.4389,Machine Learning Engineer at Verloop.io brings expert Learning to Rank (4.4y); also Weaviate at expert level (7.8y). This is the kind of ranking and evaluation background the role is hiring for.
-CAND_0010257,67,0.4382,"Currently a Senior Data Scientist at Google: 6y of expert Milvus. On the downside, a long 120-day notice period."
-CAND_0037566,68,0.4366,Machine Learning Engineer at LinkedIn brings 6.2y of expert Elasticsearch; also LlamaIndex at expert level (4.9y). This lines up directly with the JD's named vector-database requirement.
-CAND_0011687,69,0.4362,"Senior NLP Engineer (Niramai, 7.8 yrs): 7.7y of expert OpenSearch. On the downside, based in Indore, Madhya Pradesh and not flagged as willing to relocate to Noida/Pune."
-CAND_0089552,70,0.4358,Machine Learning Engineer (Netflix): expert BM25 (3.7y); expert Qdrant (5.7y). Worth noting: a long 120-day notice period.
-CAND_0062247,71,0.4319,"AI Engineer (Google, 7.3 yrs) brings expert BM25 (5.5y); also expert Qdrant (7.5y). This is the kind of ranking and evaluation background the role is hiring for."
-CAND_0099401,72,0.4317,Currently a NLP Engineer at Dream11: 5.9y of expert Qdrant. This is exactly the production vector-DB / hybrid-search experience the JD asks for.
-CAND_0084819,73,0.4302,"Search Engineer (Dream11, 4.5 yrs) brings expert BM25 (5.3y), but 4.5 years of experience is below the JD's 5-9 year band. Also: based in Indore, Madhya Pradesh and not flagged as willing to relocate to Noida/Pune."
-CAND_0024620,74,0.4271,"Based outside India (New York, USA), and the role doesn't sponsor visas; still, AI Engineer at PharmEasy brings 7.5y of expert BM25."
-CAND_0027801,75,0.4247,"Currently a NLP Engineer at InMobi: 4.9y of expert Learning to Rank. On the downside, a long 120-day notice period."
-CAND_0051630,76,0.4238,"Currently a Machine Learning Engineer at Razorpay: 5.2y of expert Elasticsearch. On the downside, based in Kolkata, West Bengal and not flagged as willing to relocate to Noida/Pune."
-CAND_0076163,77,0.4232,"NLP Engineer (Ola): expert-level Elasticsearch experience (3.2y); expert LlamaIndex (7.2y). Worth noting: Chandigarh, Chandigarh-based with no relocation flag set."
-CAND_0020708,78,0.4221,"Search Engineer (PolicyBazaar, 4.2 yrs) brings expert Learning to Rank (6.2y), but 4.2 years of experience is below the JD's 5-9 year band. Also: based in Indore, Madhya Pradesh and not flagged as willing to relocate to Noida/Pune."
-CAND_0041568,79,0.422,"Search Engineer (Haptik, 5.2 yrs): expert BM25 (4.6y). On the downside, based outside India (Sydney, Australia), and the role doesn't sponsor visas."
-CAND_0065195,80,0.4181,"Currently a Search Engineer at CRED: expert Elasticsearch (7.4y). On the downside, Kolkata, West Bengal-based with no relocation flag set."
-CAND_0007460,81,0.4135,"4.7 years of experience is below the JD's 5-9 year band; still, AI Engineer (Salesforce) brings 6y of expert Weaviate. Also: a long 120-day notice period."
-CAND_0060072,82,0.413,"Recruiter response rate is only 10%; still, Staff Machine Learning Engineer (Amazon) brings expert-level BM25 experience (5.8y). Also: last active 138 days ago."
-CAND_0087364,83,0.4107,Recommendation Systems Engineer (Glance): expert-level Milvus experience (3.8y); expert OpenSearch (3.8y). Worth noting: 4.9 years of experience is below the JD's 5-9 year band.
-CAND_0051004,84,0.4106,"Senior Data Scientist (CRED, 4.7 yrs): expert Qdrant (4y). On the downside, 4.7 years of experience is below the JD's 5-9 year band."
-CAND_0076904,85,0.4095,"Currently a Senior Data Scientist at Nykaa: expert-level OpenSearch experience (5.1y). On the downside, only 4.2 yrs experience, under the target range. Also: located in London, UK - outside the JD's India-based hiring pool."
-CAND_0086151,86,0.4094,"Notice period of 120 days is well above the JD's preference; still, Recommendation Systems Engineer at Wysa brings expert-level Qdrant experience (6.1y)."
-CAND_0018549,87,0.4087,Recommendation Systems Engineer (Uber): 3.7y of expert Weaviate; expert Elasticsearch (6.1y).
-CAND_0070202,88,0.4067,"Machine Learning Engineer (BYJU'S): 3.5y of expert BM25; expert Qdrant (4.5y). Worth noting: based in Jaipur, Rajasthan and not flagged as willing to relocate to Noida/Pune."
-CAND_0047721,89,0.4045,Senior Data Scientist at Microsoft offers expert-level Learning to Rank experience (3.1y). This matches the JD's focus on ranking-evaluation work (the NDCG/MRR/MAP side of the role).
-CAND_0064904,90,0.404,"AI Engineer (LinkedIn, 4.9 yrs) brings 5.9y of expert Elasticsearch, but 4.9 years of experience is below the JD's 5-9 year band."
-CAND_0030348,91,0.4033,"Currently a Machine Learning Engineer at BYJU'S: expert-level pgvector experience (7.8y); Python at expert level (7.8y). Worth noting: only 4.5 yrs experience, under the target range."
-CAND_0057701,92,0.4032,"Currently a Recommendation Systems Engineer at Verloop.io: 6.4y of expert Learning to Rank. On the downside, only 4.1 yrs experience, under the target range. Also: Chandigarh, Chandigarh-based with no relocation flag set."
-CAND_0022812,93,0.3999,Applied ML Engineer (Dream11): expert-level Qdrant experience (7.6y); expert NLP (5.1y). Worth noting: 4.5 years of experience is below the JD's 5-9 year band.
-CAND_0028793,94,0.3989,"Currently a Search Engineer at Google: 3.7y of expert Haystack. On the downside, a long 120-day notice period."
-CAND_0030827,95,0.3985,"Senior Data Scientist (Freshworks, 5.4 yrs) brings expert-level Learning to Rank experience (5.3y), but based outside India (Singapore, Singapore), and the role doesn't sponsor visas. Also: a long 120-day notice period."
-CAND_0015578,96,0.394,AI Engineer at Zoho offers expert-level NLP experience (5.2y). This covers the strong-Python / core-ML foundation the JD lists as a must-have.
-CAND_0055905,97,0.3937,"Senior Machine Learning Engineer (Flipkart): expert Elasticsearch (6.7y); expert Python (3.8y). Worth noting: based outside India (London, UK), and the role doesn't sponsor visas."
-CAND_0079284,98,0.3915,"Currently a Machine Learning Engineer at Google: expert Qdrant (4.9y); Elasticsearch at expert level (7.9y). Worth noting: only 4.9 yrs experience, under the target range."
-CAND_0010770,99,0.3912,"15.2 years of experience runs above the JD's 5-9 year band; still, Recommendation Systems Engineer (Aganitha) brings expert Learning to Rank (4.5y)."
-CAND_0069905,100,0.3901,"Applied ML Engineer (Sarvam AI, 6.6 yrs) brings expert Learning to Rank (3.4y); also Python at expert level (3.5y). This is the kind of ranking and evaluation background the role is hiring for."
+CAND_0092278,64,0.4401,"Recruiter response rate is only 7%; still, Senior NLP Engineer at Microsoft brings expert-level pgvector experience (6.1y)."
+CAND_0005649,65,0.4399,Senior Data Scientist at Sarvam AI: 6.2y of expert Weaviate; Haystack at expert level (4.7y).
+CAND_0006418,66,0.4389,Machine Learning Engineer (Verloop.io): expert Learning to Rank (4.4y). This matches the JD's focus on ranking-evaluation work (the NDCG/MRR/MAP side of the role).
+CAND_0010257,67,0.4382,"Currently a Senior Data Scientist at Google: expert Milvus (6y). On the downside, notice period of 120 days is well above the JD's preference."
+CAND_0037566,68,0.4366,Currently a Machine Learning Engineer at LinkedIn brings 6.2y of expert Elasticsearch; also LlamaIndex at expert level (4.9y). This is exactly the production vector-DB / hybrid-search experience the JD asks for.
+CAND_0011687,69,0.4362,"Indore, Madhya Pradesh-based with no relocation flag set; still, Senior NLP Engineer at Niramai brings 7.7y of expert OpenSearch."
+CAND_0089552,70,0.4358,"Machine Learning Engineer (Netflix): 3.7y of expert BM25. On the downside, a long 120-day notice period."
+CAND_0062247,71,0.4319,Currently a AI Engineer at Google: expert-level BM25 experience (5.5y). This matches the JD's focus on ranking-evaluation work (the NDCG/MRR/MAP side of the role).
+CAND_0099401,72,0.4317,"NLP Engineer (Dream11, 7.7 yrs) brings expert-level Qdrant experience (5.9y); also expert Haystack (6.7y). This lines up directly with the JD's named vector-database requirement."
+CAND_0084819,73,0.4302,"Currently a Search Engineer at Dream11: expert BM25 (5.3y). On the downside, 4.5 years of experience is below the JD's 5-9 year band. Also: Indore, Madhya Pradesh-based with no relocation flag set."
+CAND_0024620,74,0.4271,"Based outside India (New York, USA), and the role doesn't sponsor visas; still, AI Engineer (PharmEasy, 5.9 yrs) brings 7.5y of expert BM25."
+CAND_0027801,75,0.4247,NLP Engineer (InMobi): expert Learning to Rank (4.9y); expert Milvus (5.9y). Worth noting: a long 120-day notice period.
+CAND_0051630,76,0.4238,"Based in Kolkata, West Bengal and not flagged as willing to relocate to Noida/Pune; still, Machine Learning Engineer (Razorpay, 6.0 yrs) brings 5.2y of expert Elasticsearch."
+CAND_0076163,77,0.4232,"Currently a NLP Engineer at Ola brings 3.2y of expert Elasticsearch, but Chandigarh, Chandigarh-based with no relocation flag set."
+CAND_0020708,78,0.4221,"Search Engineer (PolicyBazaar): 6.2y of expert Learning to Rank; expert Python (3.8y). Worth noting: only 4.2 yrs experience, under the target range. Also: based in Indore, Madhya Pradesh and not flagged as willing to relocate to Noida/Pune."
+CAND_0041568,79,0.422,"Based outside India (Sydney, Australia), and the role doesn't sponsor visas; still, Search Engineer (Haptik, 5.2 yrs) brings expert-level BM25 experience (4.6y)."
+CAND_0065195,80,0.4181,"Based in Kolkata, West Bengal and not flagged as willing to relocate to Noida/Pune; still, Search Engineer (CRED, 5.1 yrs) brings expert Elasticsearch (7.4y)."
+CAND_0007460,81,0.4135,"AI Engineer (Salesforce): expert Weaviate (6y). On the downside, only 4.7 yrs experience, under the target range. Also: a long 120-day notice period."
+CAND_0060072,82,0.413,"Currently a Staff Machine Learning Engineer at Amazon brings expert-level BM25 experience (5.8y), but a low 10% recruiter response rate suggests limited engagement. Also: last active 138 days ago."
+CAND_0087364,83,0.4107,"Recommendation Systems Engineer (Glance): expert-level Milvus experience (3.8y). On the downside, 4.9 years of experience is below the JD's 5-9 year band."
+CAND_0051004,84,0.4106,"Senior Data Scientist (CRED, 4.7 yrs) brings expert-level Qdrant experience (4y), but only 4.7 yrs experience, under the target range."
+CAND_0076904,85,0.4095,"Senior Data Scientist (Nykaa): 5.1y of expert OpenSearch. On the downside, only 4.2 yrs experience, under the target range. Also: based outside India (London, UK), and the role doesn't sponsor visas."
+CAND_0086151,86,0.4094,Recommendation Systems Engineer (Wysa): expert-level Qdrant experience (6.1y); expert Elasticsearch (6.1y). Worth noting: a long 120-day notice period.
+CAND_0018549,87,0.4087,"Recommendation Systems Engineer (Uber, 6.8 yrs) offers expert Weaviate (3.7y). This lines up directly with the JD's named vector-database requirement."
+CAND_0070202,88,0.4067,"Based in Jaipur, Rajasthan and not flagged as willing to relocate to Noida/Pune; still, Machine Learning Engineer (BYJU'S, 5.1 yrs) brings expert BM25 (3.5y)."
+CAND_0047721,89,0.4045,Currently a Senior Data Scientist at Microsoft: 3.1y of expert Learning to Rank. This matches the JD's focus on ranking-evaluation work (the NDCG/MRR/MAP side of the role).
+CAND_0064904,90,0.404,"AI Engineer at LinkedIn: expert Elasticsearch (5.9y); Python at expert level (4.3y). Worth noting: only 4.9 yrs experience, under the target range."
+CAND_0030348,91,0.4033,"4.5 years of experience is below the JD's 5-9 year band; still, Machine Learning Engineer at BYJU'S brings expert pgvector (7.8y)."
+CAND_0057701,92,0.4032,"Recommendation Systems Engineer (Verloop.io): expert Learning to Rank (6.4y); expert OpenSearch (4.4y). Worth noting: only 4.1 yrs experience, under the target range. Also: based in Chandigarh, Chandigarh and not flagged as willing to relocate to Noida/Pune."
+CAND_0022812,93,0.3999,"Currently a Applied ML Engineer at Dream11: expert-level Qdrant experience (7.6y). On the downside, 4.5 years of experience is below the JD's 5-9 year band."
+CAND_0028793,94,0.3989,"Currently a Search Engineer at Google brings expert Haystack (3.7y), but notice period of 120 days is well above the JD's preference."
+CAND_0030827,95,0.3985,"Based outside India (Singapore, Singapore), and the role doesn't sponsor visas; still, Senior Data Scientist (Freshworks, 5.4 yrs) brings expert-level Learning to Rank experience (5.3y). Also: a long 120-day notice period."
+CAND_0015578,96,0.394,"AI Engineer (Zoho, 5.4 yrs) brings expert NLP (5.2y); also advanced BM25 (3.2y). This is the kind of ML engineering foundation the role is built on."
+CAND_0055905,97,0.3937,"Currently a Senior Machine Learning Engineer at Flipkart: 6.7y of expert Elasticsearch. On the downside, located in London, UK - outside the JD's India-based hiring pool."
+CAND_0079284,98,0.3915,"Machine Learning Engineer (Google): expert-level Qdrant experience (4.9y). On the downside, only 4.9 yrs experience, under the target range."
+CAND_0010770,99,0.3912,"Currently a Recommendation Systems Engineer at Aganitha: 4.5y of expert Learning to Rank. On the downside, 15.2 years of experience runs above the JD's 5-9 year band."
+CAND_0069905,100,0.3901,Applied ML Engineer (Sarvam AI): 3.4y of expert Learning to Rank; expert Python (3.5y).
