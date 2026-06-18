@@ -1,6 +1,6 @@
 """
-Gradio 3.x-compatible UI for the candidate ranker.
-Uses gradio 3.50.2 (stable HF Spaces version) to avoid version-conflict issues.
+Gradio 5.x-compatible UI for the candidate ranker.
+Uses gradio 5.35.0 (stable HF Spaces version) to avoid version-conflict issues.
 """
 import os
 import re
@@ -89,8 +89,7 @@ def run_ranker(uploaded_file=None):
 
 
 # ── UI ────────────────────────────────────────────────────────────────────────
-# Use theme="soft" string (works in gradio 3.x and 4.x)
-with gr.Blocks(title="Candidate Ranker", theme="soft") as demo:
+with gr.Blocks(title="Candidate Ranker") as demo:
     gr.Markdown(
         "# 🏆 Candidate Ranker\n"
         "Upload a candidates file (`.jsonl`, `.jsonl.gz`, or `.zip`) and run "
