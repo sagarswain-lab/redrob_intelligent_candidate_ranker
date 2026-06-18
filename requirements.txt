@@ -11,4 +11,6 @@ scipy>=1.10
 gradio>=4.0
 pandas>=2.0
 huggingface_hub<1.0.0
+pydantic==2.10.6
+
 
