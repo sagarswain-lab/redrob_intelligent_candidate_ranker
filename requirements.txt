@@ -1,13 +1,10 @@
 # --- Core ranking pipeline (rank.py) ---
-# This is all `reproduce_command` needs. TfidfVectorizer / cosine_similarity
-# come from scikit-learn; numpy/scipy are its dependencies.
+# TfidfVectorizer / cosine_similarity come from scikit-learn; numpy/scipy are its dependencies.
 scikit-learn>=1.3
 numpy>=1.24
 scipy>=1.10
 
 # --- Sandbox UI (app.py) ---
-# Only needed to run the local/HF-Spaces Gradio demo. Not required for the
-# core reproduce_command above.
-gradio>=4.20,<5.0
+# Pinned to a specific stable version known to work on HF Spaces (Python 3.10).
+gradio==4.44.1
 pandas>=2.0
-huggingface_hub>=0.20,<1.0.0
