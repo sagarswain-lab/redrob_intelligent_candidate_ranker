@@ -5,6 +5,7 @@ numpy>=1.24
 scipy>=1.10
 
 # --- Sandbox UI (app.py) ---
-# Pinned to a specific stable version known to work on HF Spaces (Python 3.10).
-gradio==4.44.1
+# NOTE: gradio is NOT listed here because HuggingFace Spaces installs it
+# automatically based on the sdk_version in README.md (currently 4.44.0).
+# Adding gradio here would cause a version conflict and a build error.
 pandas>=2.0
