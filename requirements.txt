@@ -8,3 +8,4 @@ scipy>=1.10
 # Do NOT add gradio or huggingface_hub here - they are pre-installed in the
 # HF docker image and adding them causes version conflicts.
 pandas>=2.0
+huggingface_hub==0.19.4
