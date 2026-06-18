@@ -127,11 +127,13 @@ with gr.Blocks(
         fn=run_ranker,
         inputs=file_in,
         outputs=[table_out, summary_out, download_out],
+        api_name=False,  # prevents gradio_client JSON schema crash (bool not iterable)
     )
     demo.load(
         fn=run_ranker,
         inputs=None,
         outputs=[table_out, summary_out, download_out],
+        api_name=False,  # prevents gradio_client JSON schema crash (bool not iterable)
     )
 
 
