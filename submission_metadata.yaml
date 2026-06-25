@@ -31,7 +31,7 @@ team_members:
 github_repo: "https://github.com/sagarswain-lab/redrob_intelligent_candidate_ranker.git"
 
 
-sandbox_link: "<<FILL IN — e.g. https://huggingface.co/spaces/YOUR_USERNAME/redrob-ranker>>"
+sandbox_link: "https://huggingface.co/spaces/sagar-03/redrob-intelligent-candidate-ranker"
 # A hosted environment where rank.py can be run on a small sample.
 # Ready-to-go in sandbox/hf_space/ (see sandbox/SANDBOX_SETUP.md, ~5 min
 # setup: create a Space, upload 6 files or `hf upload`). It bundles the same
@@ -42,14 +42,17 @@ sandbox_link: "<<FILL IN — e.g. https://huggingface.co/spaces/YOUR_USERNAME/re
 
 reproduce_command: "python rank.py --candidates ./candidates.jsonl --out ./submission.csv"
 # Single command, produces submission.csv from candidates.jsonl.
-# Measured: ~58s, ~3.5GB peak RSS, single CPU core, no network, no GPU.
+# Measured on the full 100K candidates, single CPU core, no network, no GPU:
+#   - local machine (Asus vivobook 16x , "Ryzen 5, 16GB RAM">>): ~57s
+#   - HuggingFace Spaces (free CPU basic tier): ~70s
+# Both well under the 5-minute (300s) limit. Peak RAM ~3.5GB in both cases.
 
 # ============================================================================
 # Compute environment
 # ============================================================================
 compute:
   platform: "Asus vivobook 16x"
-  cpu_cores: 8     # update to your machine's core count
+  cpu_cores: 6
   ram_gb: 16
   python_version: "3.12"
   os: "Windows 11 Home"
@@ -65,8 +68,11 @@ ai_tools_used:
   - "ChatGPT"
 
 ai_usage_summary: |
-  Used ChatGPT to help format the project documentation and troubleshoot basic syntax. 
-  The core ranking logic, feature scoring, and data analysis were designed and implemented manually.
+  We used ChatGPT to build and refine the core code logic, develop the
+  candidate scoring formula and its weights, perform exploratory data
+  analysis (EDA) on the candidate pool, and iteratively optimize the overall
+  implementation. We also leveraged ChatGPT to draft documentation, write
+  inline code comments, and outline the README.
 
 # ============================================================================
 # Approach summary
